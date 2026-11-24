@@ -82,7 +82,7 @@ def analyze_reviews(comments):
     url = "https://gptproto.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "sk-62c895646f0848e690d1d02543fd1da5"
+        "Authorization": "key"
     }
     data = {
         "model": "gpt-4o",
